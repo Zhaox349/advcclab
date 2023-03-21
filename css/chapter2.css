@@ -1,0 +1,75 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #FFE3C1;
+}
+
+.content {
+  display: flex;
+  height: 100vh;
+}
+
+.content .left {
+  background-color: #FFD8AB;
+  border-right: 6px dashed #FFFFFF;
+  flex: 1;
+}
+
+.content .left .text {
+  margin-left: 76px;
+  margin-top: 118px;
+  font-family: 'Istok Web';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;  
+  color: #752B01;
+  width: 523px;
+}
+
+.content .left .text a{
+
+  font-size: 28px;
+  color: #752B01;
+}
+
+.content .left .img {
+  margin-top: 130px;
+  margin-left: 101px;
+  width: 474px;
+height: 419px;
+background-color: #FFFFFF;
+}
+
+.content .right {
+ flex: 1;
+  background-color: #FFE3C1;
+}
+
+.content .right .img {
+  margin-top: 232px;
+  margin-left: 259px;
+  width: 260px;
+height: 326px;
+background-color: #FFFFFF;
+}
+
+.content .right .text {
+  margin-left: 213px;
+  margin-top: 161px;
+  font-family: 'Istok Web';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 32px;
+
+color: #752B01;
+width: 565px;
+}
+
+
+.content .right .text a{
+
+  font-size: 28px;
+  color: #752B01;
+}

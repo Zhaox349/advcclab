@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.min.css" />
+    <link rel="stylesheet" href="./css/chapter5.css" />
+    <title>Eggs chapter 5</title>
+  </head>
+  <body>
+    <div class="title">The game I played was a coward’s game.</div>
+    <div class="content">
+      <div class="part1"></div>
+      <div class="part2"></div>
+      <div class="part3"></div>
+    </div>
+
+    <div class="cover">
+      <div class="part1">
+        <div class="text" id="text1">
+          1. I liked my eggs hard boiled at first
+        </div>
+        <div class="img"></div>
+      </div>
+      <div class="part2">
+        <div class="text" id="text2">2. then devilled, ice cold.</div>
+        <div class="img"></div>
+      </div>
+      <div class="part3">
+        <div class="text" id="text3">3. Scrambled was years off;</div>
+        <div class="img"></div>
+      </div>
+    </div>
+
+    <!-- <script
+      src="https://unpkg.com/@free-side/audioworklet-polyfill/dist/audioworklet-polyfill.js"
+      type="text/javascript"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@0.9.0/lib/addons/p5.dom.min.js"></script> -->
+
+    <script>
+      window.onload = () => {
+        const $ = window.document.querySelector.bind(window.document);
+        $("#text1").onclick = () => {
+          document.location.href = "chapter6.html";
+        };
+        $("#text2").onclick = () => {
+          document.location.href = "chapter6.html";
+        };
+        $("#text3").onclick = () => {
+          document.location.href = "chapter6.html";
+        };
+      };
+    </script>
+  </body>
+</html>
