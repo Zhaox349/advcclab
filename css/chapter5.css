@@ -20,6 +20,24 @@ body {
   z-index: 999;
 }
 
+.question {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 60px;
+  font-family: 'Istok Web';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 43px;
+  text-align: center;
+  color: #752B01;
+  z-index: 999;
+}
+
+
+
+
 .content {
   position: relative;
   display: flex;
@@ -29,23 +47,21 @@ body {
   }
 
 .content .part1 {
-  height: 110%;
-  margin-top: -200px;
-  flex: 3;
+  height: 100%;
+   flex: 1;
   border-right: 6px dashed #FFFFFF;
-  transform: rotate(18deg);
+  
 }
 
 .content .part2 {
-  height: 110%;
-  margin-top: -300px;
-  flex: 4;
+  height: 100%;
+  flex: 1;
   border-right: 6px dashed #FFFFFF;
-  transform: rotate(18deg);
+  
 }
 
 .content .part3{
-  flex: 3;
+  flex: 1;
 }
 
 .cover {
@@ -60,7 +76,11 @@ body {
 }
 
 .cover .part1 {
-  flex: 3;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 } 
 
 .text {
@@ -68,9 +88,7 @@ body {
 }
 
 .cover .part1 .text{ 
-  margin-top: 230px;
-  margin-left: 50px;
-  font-family: 'Istok Web';
+   font-family: 'Istok Web';
 font-style: normal;
 font-weight: 400;
 font-size: 22px;
@@ -81,20 +99,21 @@ color: #752B01;
 
 .cover .part1 .img{ 
   width: 376px;
-height: 224px;
-margin-left: 34px;
-margin-top: 41px;
-background-color: #fff;
+   height: 224px;
+  margin-top: 41px;
+  background-color: #fff;
 }
 
 .cover .part2 {
-  flex: 4;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 } 
 
 .cover .part2 .text{ 
-  margin-top: 386px;
-  margin-left: 130px;
-  font-family: 'Istok Web';
+    font-family: 'Istok Web';
 font-style: normal;
 font-weight: 400;
 font-size: 22px;
@@ -106,19 +125,20 @@ color: #752B01;
 .cover .part2 .img{ 
   width: 439px;
 height: 224px;
-margin-left: 69px;
-margin-top: 41px;
+ margin-top: 41px;
 background-color: #fff;
 }
 
 .cover .part3 {
-  flex: 3;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 } 
 
 .cover .part3 .text{ 
-  margin-top: 545px;
-  margin-left: 29px;
-  font-family: 'Istok Web';
+   font-family: 'Istok Web';
 font-style: normal;
 font-weight: 400;
 font-size: 22px;
@@ -129,8 +149,12 @@ color: #752B01;
 
 .cover .part3 .img{ 
   width: 416px;
+  margin-top: 41px;
 height: 268px;
-margin-left: 0px;
-margin-top: 90px;
-background-color: #fff;
+ background-color: #fff;
+}
+
+
+.center {
+  height: 200px;
 }
