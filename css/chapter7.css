@@ -1,6 +1,123 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-color: #FFB36D;
+  background-color: #ffb36d;
   position: relative;
+}
+
+.text {
+  position: absolute;
+  width: 450px;
+  height: 150px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  font-family: 'Amaranth', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: center;
+  z-index: 99;
+  color: #752b01;
+}
+
+.halloween {
+  position: absolute;
+  width: 121px;
+  height: 121px;
+  left: 27px;
+  top: 2px;
+}
+
+.boom {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.bottom {
+  height: 24px;
+  position: absolute;
+  bottom: 65px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 0 auto;
+  z-index: 99;
+  font-family: 'Paytone One', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+
+  color: #752b01;
+}
+
+#backhome {
+  position: fixed;
+  right: 17px;
+  top: 6px;
+  width: 71px;
+  height: 83px;
+  cursor: pointer;
+}
+
+.liquid {
+  position: absolute;
+}
+
+.liquid-1 {
+  width: 126.33px;
+  height: 121.36px;
+  left: 10%;
+  top: 10%;
+  transform: rotate(-45deg);
+}
+
+.liquid-2 {
+  width: 258.98px;
+  height: 248.79px;
+  left: 12%;
+  bottom: 20%;
+  transform: rotate(-45deg);
+}
+
+.liquid-3 {
+  width: 258.98px;
+  height: 248.79px;
+  left: 1%;
+  bottom: 1%;
+}
+
+.liquid-4 {
+  width: 126.33px;
+  height: 121.36px;
+  right: 10%;
+  top: 5%;
+}
+
+.liquid-5 {
+  width: 170.53px;
+  height: 163.82px;
+  right: 5%;
+  top: 45%;
+}
+
+.liquid-6 {
+  width: 170.53px;
+  height: 163.82px;
+  right: 3%;
+  top: 20%;
+}
+
+a:hover{
+  background-color: #ffcc5f;
+  font-size:35px;
 }

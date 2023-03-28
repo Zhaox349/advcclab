@@ -1,12 +1,14 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-color: #FFD8AB;
+  background-color: #ffd8ab;
   position: relative;
 }
 
-
 .content {
+  position: absolute;
+  left: 0;
+  right: 0;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -17,30 +19,44 @@ body {
 .paragraph {
   width: 515px;
   text-align: center;
+  font-family: 'Amaranth', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
 
-font-family: 'Istok Web';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 32px;
-text-align: center;
-
-color: #752B01;
+  color: #752b01;
 }
 
 a {
-  color: #752B01;
+  color: #752b01;
+  font-size: 25px;
+}
 
+a:hover{
+  background-color: #ffcc5f;
+  font-size:35px;
 }
 
 .title {
-  margin-top: 86px;
-  font-family: 'Istok Web';
-font-style: normal;
-font-weight: 700;
-font-size: 30px;
-line-height: 43px;
-text-align: center;
+  margin-top: 70px;
+  font-family: 'Paytone One', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 43px;
+  text-align: center;
 
-color: #752B01;
+  color: #752b01;
+}
+
+#backhome {
+  position: fixed;
+  right: 17px;
+  top: 6px;
+  width: 71px;
+  height: 83px;
+  cursor: pointer;
+  z-index: 999;
 }

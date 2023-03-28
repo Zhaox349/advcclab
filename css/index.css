@@ -1,49 +1,47 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-color: #FFE3C1;
+  background-color: #ffe3c1;
 }
 
-.content {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.title {
-  font-family: 'Kodchasan';
+.text1 {
+  position: absolute;
+  width: 500px;
+  height: 151px;
+  left: 55%;
+  top: 26%;
+  font-family: 'Paytone One', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  text-align: center;
-  color: #752B01;
- }
 
-.text {
-  font-family: 'Istok Web';
+  color: #752b01;
+}
+
+.text2 {
+  position: absolute;
+  width: 420px;
+  height: 151px;
+  left: 16%;
+  top: 54%;
+  font-family: 'Amaranth', sans-serif;
+  
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
-  line-height: 32px;
-  text-align: center;
-  color: #752B01;
-  margin-top: 63px;
-  width: 523px;
+  line-height: 30px;
+
+  color: #752b01;
 }
 
-.text a {
-  color: #752B01;
-}
-.text a:hover {
-  color: #ffcc5f;
+.text2 a {
+  font-size: 32px;
+  color: #752b01;
 }
 
-.img {
-  width: 375px;
-height: 470px;
-margin-top: 70px;
-background-color: #fff;
+a:hover{
+  background-color: #ffcc5f;
+  font-size:35px;
 }
+

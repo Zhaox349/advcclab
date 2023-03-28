@@ -1,7 +1,7 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-color: #FFE3C1;
+  background-color: #ffe3c1;
 }
 
 .content {
@@ -10,41 +10,95 @@ body {
 }
 
 .content .left {
-  background-color: #FFD8AB;
-  border-right: 6px dashed #FFFFFF;
+  background-color: #ffd8ab;
+  border-right: 6px dashed #ffffff;
   flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  position: relative;
 }
 
 .content .left .text {
-  font-family: 'Istok Web';
+  position: absolute;
+  top: 95px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Amaranth', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
-  line-height: 32px;  
-  color: #752B01;
-  max-width: 474px;
+  line-height: 32px;
+  color: #752b01;
+  max-width: 564px;
 }
 
-.content .left .text a{
-
-  font-size: 28px;
-  color: #752B01;
+.content .left .text a {
+  font-size: 30px;
+  color: #752b01;
 }
 
-.content .left .img {
-  margin-top: 130px;
-  width: 474px;
-  height: 419px;
-  background-color: #FFFFFF;
+.content .left .progressbar {
+  width: 476px;
+  position: absolute;
+  top: 207px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.content .left .progressbar .cursor {
+  width: 25px;
+  height: 33px;
+  position: absolute;
+  left: 0;
+}
+
+.content .left .progressbar .end {
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  right: 0;
+}
+
+.content .left .progressbar .bg {
+  position: relative;
+  height: 14px;
+  border-radius: 10px;
+  background-color: rgb(222, 228, 247);
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #ffb36d 0%, #752b01 100%);
+}
+
+.content .left .tips {
+  position: absolute;
+  top: 240px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: inline-block;
+  font-family: 'Delicious Handrawn', cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 33px;
+  color: #d17012;
+  text-align: center;
+  animation: box-animation 1s infinite alternate;
+}
+
+@keyframes box-animation {
+  from {
+    transform: scale(0.6);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 
 .content .right {
   flex: 1;
-  background-color: #FFE3C1;
+  background-color: #ffe3c1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,25 +106,41 @@ body {
 }
 
 .content .right .img {
-  width: 260px;
-  height: 326px;
-  background-color: #FFFFFF;
+  height: 59%;
+}
+
+.content .right .img img {
+  width: 100%;
+  height: 100%;
 }
 
 .content .right .text {
-  margin-top: 161px;
-  font-family: 'Istok Web';
+  margin-top: 39px;
+  font-family: 'Amaranth', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 32px;
-
-color: #752B01;
-  max-width: 365px;
+  text-align: center;
+  color: #752b01;
+  max-width: 390px;
 }
 
-
-.content .right .text a{
+.content .right .text a {
   font-size: 28px;
-  color: #752B01;
+  color: #752b01;
+}
+
+a:hover{
+  background-color: #ffcc5f;
+  font-size:35px;
+}
+
+#backhome {
+  position: fixed;
+  right: 17px;
+  top: 6px;
+  width: 71px;
+  height: 83px;
+  cursor: pointer;
 }

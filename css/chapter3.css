@@ -1,23 +1,43 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-color: #FFE3C1;
+  background-color: #ffe3c1;
 }
 
-.content {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+#backhome {
+  position: fixed;
+  right: 17px;
+  top: 6px;
+  width: 71px;
+  height: 83px;
+  cursor: pointer;
 }
 
-.title {
-  font-family: 'Kodchasan';
+.tips {
+  position: fixed;
+  width: 470px;
+  height: 114px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  font-family: 'Amaranth', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 40px;
-  line-height: 52px;
+  font-size: 22px;
+  line-height: 32px;
   text-align: center;
-  color: #752B01;
- }
+
+  color: #752b01;
+}
+
+.tips a {
+  font-size: 32px;
+  color: #752b01;
+}
+
+a:hover{
+  background-color: #ffcc5f;
+  font-size:35px;
+}

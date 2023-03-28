@@ -1,6 +1,50 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-color: #FFB36D;
+  background-color: #ffb36d;
   position: relative;
+}
+
+.tips {
+  position: absolute;
+  height: 30px;
+  text-align: center;
+  top: 40px;
+  left: 0;
+  right: 0;
+  font-family: 'Paytone One', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 43px;
+  text-align: center;
+
+  color: #752b01;
+}
+
+.bottom {
+  height: 24px;
+  position: absolute;
+  bottom: 43px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Amaranth', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+
+  color: #752b01;
+}
+
+#backhome {
+  position: fixed;
+  right: 17px;
+  top: 6px;
+  width: 71px;
+  height: 83px;
+  cursor: pointer;
+  z-index: 9999;
 }
