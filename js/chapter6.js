@@ -207,7 +207,7 @@ class Bullet {
     this.startPos = createVector(width / 2, height - 509 / 2);
     this.targetPos = createVector(x - this.startPos.x, y - this.startPos.y);
 
-    this.stepVec = this.targetPos.copy().normalize().mult(2);
+    this.stepVec = this.targetPos.copy().normalize().mult(4);
 
     this.alive = true;
   }

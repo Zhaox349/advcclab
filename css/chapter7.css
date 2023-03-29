@@ -13,10 +13,10 @@ body {
   right: 0;
   margin: 0 auto;
   text-align: center;
-  top: 0;
+  top: 45%;
   bottom: 0;
   margin: auto;
-  font-family: 'Amaranth', sans-serif;
+  font-family: "Amaranth", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -43,7 +43,6 @@ body {
 }
 
 .bottom {
-  height: 24px;
   position: absolute;
   bottom: 65px;
   left: 0;
@@ -51,12 +50,13 @@ body {
   text-align: center;
   margin: 0 auto;
   z-index: 99;
-  font-family: 'Paytone One', sans-serif;
+  font-family: "Paytone One", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
   line-height: 32px;
-
+  display: inline-block;
+  width: max-content;
   color: #752b01;
 }
 
@@ -117,7 +117,7 @@ body {
   top: 20%;
 }
 
-a:hover{
+a:hover {
   background-color: #ffcc5f;
-  font-size:35px;
+  font-size: 35px;
 }
